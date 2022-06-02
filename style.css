@@ -1,0 +1,36 @@
+      body {
+            font-family: 'Pacifico', cursive;
+            background-color: lightpink;
+            color: brown;
+        }
+
+      .textbox {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .form {
+        margin: 10px auto 0 auto;
+        text-align: center;
+      }
+      #message, #cuisine {
+        display: block;
+        margin: 0 auto 10px auto;
+      }
+      table,td,th{
+        margin: auto;
+        border: 5px solid lightyellow;
+        border-radius: 10px;
+      }
+
+      lottie-player{
+        margin: 0 auto;
+      }
+      
+      .tableHead{
+        display: inline-flex;
+      }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
