@@ -19,6 +19,9 @@
         display: block;
         margin: 0 auto 10px auto;
       }
+      lottie-player{
+        margin: 0 auto;
+      }
       table,td,th{
         margin: auto;
         border: 4px solid lightyellow;
@@ -34,12 +37,12 @@ img {
   margin-right: auto;
 }
 header{
-  
   margin: auto;
 }
 nav{
   background-color: rgb(255, 242, 225);
-  border: 5px groove rgb(137, 46, 46);
+  box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+  margin-top: 100px;
   height: 80px;
 
 }
@@ -48,8 +51,9 @@ nav ul{
   float: right;
   display: inline-flex;
   line-height: 80px;
-  gap: 10px;
+  gap: 20px;
   margin-right: 20px;
+  font-size: 30px;
 }
 .googlemap,.video{
   display:inline-block;
@@ -75,4 +79,14 @@ h3 {
   position: relative;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+a:link { 
+  text-decoration: none;
+  
+} 
+
+a:hover{
+  background-color: lightpink;
+  transition: 0.3s;
 }
