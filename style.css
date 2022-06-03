@@ -1,77 +1,103 @@
-*{
-  margin: auto;
-} 
-      body {
-            font-family: 'Pacifico', cursive;
-            background-color: lightpink;
-            color: rgb(146, 52, 52);
-        }
+* {
+    margin: auto;
+}
 
-      .textbox {
-        margin: 0 auto;
-        text-align: center;
-      }
-      .form {
-        margin: 10px auto 0 auto;
-        text-align: center;
-      }
-      #message, #cuisine {
-        display: block;
-        margin: 0 auto 10px auto;
-      }
-      table,td,th{
-        margin: auto;
-        border: 4px solid lightyellow;
-        border-radius: 10px;
-      }
-      .tableHead{
-        display: inline-flex;
-      }
-      .googlemap,.video{
-        display:inline-block;
-      }
-      h3 {
-        text-decoration: underline;
-        line-height: 20px;
-        display:inline-block;
-        text-align:left;
-      }
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: lightpink;
+    color: rgb(146, 52, 52);
+}
 
-       .video{
-        margin: 370px;
-        position: relative;
-        margin-top: 0;
-        margin-bottom: 0;
-        }
-        .googlemap{
-        border: 100;
-        position: relative;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      lottie-player {
-        margin: 0 auto;
-      }
+.textbox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+#message,
+#cuisine {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+lottie-player {
+    margin: 0 auto;
+}
+
+table,
+td,
+th {
+    margin: auto;
+    border: 4px solid lightyellow;
+    border-radius: 10px;
+}
+
+.tableHead {
+    display: inline-flex;
+}
+
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-header{
-  
-  margin: auto;
-}
-nav{
-  background-color: rgb(255, 242, 225);
-  border: 5px groove rgb(137, 46, 46);
-  height: 80px;
 
+header {
+    margin: auto;
 }
-nav ul{
-  list-style: none;
-  float: right;
-  display: inline-flex;
-  line-height: 80px;
-  gap: 10px;
-  margin-right: 20px;
+
+nav {
+    background-color: rgb(255, 242, 225);
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .2);
+    margin-top: 100px;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    display: inline-flex;
+    line-height: 80px;
+    gap: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.googlemap,
+.video {
+    display: inline-block;
+}
+
+h3 {
+    text-decoration: underline;
+    line-height: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.video {
+    margin: 370px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.googlemap {
+    border: 100;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightpink;
+    transition: 0.3s;
 }
