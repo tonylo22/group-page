@@ -1,7 +1,10 @@
+*{
+  margin: auto;
+} 
       body {
             font-family: 'Pacifico', cursive;
             background-color: lightpink;
-            color: brown;
+            color: rgb(146, 52, 52);
         }
 
       .textbox {
@@ -18,14 +21,10 @@
       }
       table,td,th{
         margin: auto;
-        border: 5px solid lightyellow;
+        border: 4px solid lightyellow;
         border-radius: 10px;
       }
 
-      lottie-player{
-        margin: 0 auto;
-      }
-      
       .tableHead{
         display: inline-flex;
       }
@@ -33,4 +32,22 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+header{
+  
+  margin: auto;
+}
+nav{
+  background-color: rgb(255, 242, 225);
+  border: 5px groove rgb(137, 46, 46);
+  height: 80px;
+
+}
+nav ul{
+  list-style: none;
+  float: right;
+  display: inline-flex;
+  line-height: 80px;
+  gap: 10px;
+  margin-right: 20px;
 }
