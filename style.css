@@ -51,3 +51,28 @@ nav ul{
   gap: 10px;
   margin-right: 20px;
 }
+.googlemap,.video{
+  display:inline-block;
+}
+
+h3 {
+  text-decoration: underline;
+  line-height: 20px;
+  display:inline-block;
+  text-align:left;
+}
+
+ .video{
+  margin: 370px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+
+.googlemap{
+  border: 100;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
