@@ -24,9 +24,33 @@
         border: 4px solid lightyellow;
         border-radius: 10px;
       }
-
       .tableHead{
         display: inline-flex;
+      }
+      .googlemap,.video{
+        display:inline-block;
+      }
+      h3 {
+        text-decoration: underline;
+        line-height: 20px;
+        display:inline-block;
+        text-align:left;
+      }
+
+       .video{
+        margin: 370px;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+        .googlemap{
+        border: 100;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      lottie-player {
+        margin: 0 auto;
       }
 img {
   display: block;
