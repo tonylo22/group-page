@@ -1,0 +1,53 @@
+*{
+  margin: auto;
+} 
+      body {
+            font-family: 'Pacifico', cursive;
+            background-color: lightpink;
+            color: rgb(146, 52, 52);
+        }
+
+      .textbox {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .form {
+        margin: 10px auto 0 auto;
+        text-align: center;
+      }
+      #message, #cuisine {
+        display: block;
+        margin: 0 auto 10px auto;
+      }
+      table,td,th{
+        margin: auto;
+        border: 4px solid lightyellow;
+        border-radius: 10px;
+      }
+
+      .tableHead{
+        display: inline-flex;
+      }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  
+  margin: auto;
+}
+nav{
+  background-color: rgb(255, 242, 225);
+  border: 5px groove rgb(137, 46, 46);
+  height: 80px;
+
+}
+nav ul{
+  list-style: none;
+  float: right;
+  display: inline-flex;
+  line-height: 80px;
+  gap: 10px;
+  margin-right: 20px;
+}
