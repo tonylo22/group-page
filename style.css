@@ -8,16 +8,31 @@ body {
     font-family: 'Pacifico', cursive;
     background-color: lightpink;
     color: rgb(146, 52, 52);
+    text-align: center;
 }
 
 #textbox {
-    margin: 0 auto;
+    width: 60vw;
     text-align: center;
+    margin: 20px auto;
+    font-size: 1.2em;
 }
 
-#form {
-    margin: 10px auto 0 auto;
-    text-align: center;
+#form-intro {
+    padding: 50px;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 1.2em;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+
+#goto-form {
+    text-decoration: none;
+    background-color: rgb(146, 52, 52);
+    color: lightyellow;
+    border-radius: 10px;
+    padding: 0 5px;
 }
 
 #message,
@@ -195,5 +210,4 @@ form hr {
 .oneColFixCtr #container {
     width: 780px; /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
     margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-    text-align: left; /* this overrides the text-align: center on the body element. */
 }
