@@ -1,7 +1,7 @@
 * {
     margin: auto;
     scroll-behavior: smooth;
-    /*scroll-padding: 50px;  not useful - Chloe*/
+    scroll-padding: 50px;
 }
 
 body {
