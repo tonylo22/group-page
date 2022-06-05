@@ -123,13 +123,13 @@ header {
     display: none;
 }
 
-@media (max-width: 1046px) {
+@media (max-width: 1160px) {
     #nav-list>* {
         margin: auto
     }
 }
 
-@media (max-width: 782px) {
+@media (max-width: 893px) {
 
     /*dropdown menu for smaller screens*/
     #dropdown-button {
