@@ -3,116 +3,128 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/0448c41f8b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <script type="text/javascript" src="fontawesome/js/all.js"></script>
     <link rel="icon" type="image/x-icon" href="http://img95.699pic.com/element/40147/4417.png_300.png">
     <title>Form - Meal Combo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<header>
+    <nav id="navbar">
+        <div id="nav-name">Group 4</div>
+        <div id="dropdown">
+            <div id="dropdown-button">Menu <i class="fa fa-caret-down"></i></div>
+            <ul id="nav-list">
+                <li id="about"><a href="index.html#textbox">About</a></li>
+                <li><a href="index.html#comp-table">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="index.html#video">Footage</a></li>
+            </ul>
+        </div>
+        <a id="nav-button" href="#googlemap">Find Us <i class="fa-solid fa-heart"></i></a>
+    </nav>
+</header>
 
-<body>
-    <header>
-        <nav id="navbar">
-            <div id="nav-name">Group 4</div>
-            <div id="dropdown">
-                <div id="dropdown-button">Menu <i class="fa fa-caret-down"></i></div>
-                <ul id="nav-list">
-                    <li id="about"><a href="#textbox">About</a></li>
-                    <li><a href="#comp-table">Table</a></li>
-                    <li><a href="form.html">Form</a></li>
-                    <li><a href="#video">Footage</a></li>
-                </ul>
-            </div>
-            <a id="nav-button" href="#googlemap">Find Us <i class="fa-solid fa-heart"></i></a>
-        </nav>
-    </header>
-    <hr>
-    <!--Form submit action and type-->
-    <form action="submission.html" method="GET">
-        <h1>Create a Meal Combo!</h1>
-        <!--Text Input label-->
-        <label for="cusName">What can we call you?</label>
-        <br>
-        <!--Dropdown list-->
-        <label for="titles">Title: </label>
-        <select name="titles" id="titles">
-            <option value="Mr.">Mr.</option>
-            <option value="Miss">Miss</option>
-            <option value="Mrs.">Mrs.</option>
-            <option value="Ms.">Ms.</option>
-        </select>
-        <!--End of Dropdown list-->
-        <!--Text Input-->
-        <input type="text" name="cusName" id="cusName">
+<body class="oneColFixCtr">
+    <div id="container">
         <hr>
+        <!--Form submit action and type-->
+        <form id="form" action="submission.html" method="GET">
+            <h1>Create a Meal Combo!</h1>
+            <!--Text Input label-->
+            <label for="cusName">What can we call you?</label>
+            <br>
+            <!--Dropdown list-->
+            <label for="titles">Title: </label>
+            <select name="titles" id="titles">
+                <option value="Mr.">Mr.</option>
+                <option value="Miss">Miss</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Ms.">Ms.</option>
+            </select>
+            <!--End of Dropdown list-->
+            <!--Text Input-->
+            <input type="text" name="cusName" id="cusName">
+            <br><br>
+            <hr>
 
-        <!--Datalist Input-->
-        <label for="meat">What type of meat would you like?</label>
-        <br>
-        <input list="meatType" id="meats" name="meats" required>
-        <datalist id="meatType">
-            <option value="Beef"></option>
-            <option value="Pork"></option>
-            <option value="Goat"></option>
-            <option value="Lamb"></option>
-            <option value="Chicken"></option>
-            <option value="Duck"></option>
-            <option value="Crab"></option>
-            <option value="Lobster"></option>
-        </datalist>
-        <!--End of Datalist Input-->
-        <hr>
-        <!--Number Input-->
-        <label for="amount">How many meats would you like to eat at once?</label>
-        <br>
-        <input type="number" name="amount" id="amount" min="1" max="30" required>
-        <!--End of Number Input-->
-        <hr>
-        <!--Range Input-->
-        <label for="cooked">How would you like your meats to be cooked?</label>
-        <br>
-        <span>Rare</span>
-        <input type="range" name="cooked" id="cooked" value="3" min="1" max="5" step="1">
-        <span>Well-Done</span>
-        <!--End of Range Input-->
-        <hr>
+            <!--Datalist Input-->
+            <label for="meat">What type of meat would you like?</label>
+            <br>
+            <input list="meatType" id="meats" name="meats" required>
+            <datalist id="meatType">
+                <option value="Beef"></option>
+                <option value="Pork"></option>
+                <option value="Goat"></option>
+                <option value="Lamb"></option>
+                <option value="Chicken"></option>
+                <option value="Duck"></option>
+                <option value="Crab"></option>
+                <option value="Lobster"></option>
+            </datalist>
+            <!--End of Datalist Input-->
+            <br><br>
+            <hr>
+            <!--Number Input-->
+            <label for="amount">How many meats would you like to eat at once?</label>
+            <br>
+            <input type="number" name="amount" id="amount" min="1" max="30" required>
+            <!--End of Number Input-->
+            <br><br>
+            <hr>
+            <!--Range Input-->
+            <label for="cooked">How would you like your meats to be cooked?</label>
+            <br>
+            <span>Rare</span>
+            <input type="range" name="cooked" id="cooked" value="3" min="1" max="5" step="1">
+            <span>Well-Done</span>
+            <!--End of Range Input-->
+            <br><br>
+            <hr>
 
-        <!--Checkbox Input-->
-        <span>What side dishes do you like?</span>
-        <br>
-        <input type="checkbox" name="dishes" id="pasta" value="pasta">
-        <label for="pasta">Pasta</label>
-        <input type="checkbox" name="dishes" id="rice" value="rice">
-        <label for="rice">Rice</label>
-        <input type="checkbox" name="dishes" id="salad" value="salad">
-        <label for="salad">Salad</label>
-        <input type="checkbox" name="dishes" id="fries" value="fries">
-        <label for="fries">French Fries</label>
-        <input type="checkbox" name="dishes" id="mashPotato" value="mashedPotato">
-        <label for="mashPotato">Mashed Potato</label>
-        <!--End of Checkbox Input-->
-        <hr>
+            <!--Checkbox Input-->
+            <span>What side dishes do you like?</span>
+            <br>
+            <input type="checkbox" name="dishes" id="pasta" value="pasta">
+            <label for="pasta">Pasta</label>
+            <input type="checkbox" name="dishes" id="rice" value="rice">
+            <label for="rice">Rice</label>
+            <input type="checkbox" name="dishes" id="salad" value="salad">
+            <label for="salad">Salad</label>
+            <input type="checkbox" name="dishes" id="fries" value="fries">
+            <label for="fries">French Fries</label>
+            <input type="checkbox" name="dishes" id="mashPotato" value="mashedPotato">
+            <label for="mashPotato">Mashed Potato</label>
+            <!--End of Checkbox Input-->
+            <br><br>
+            <hr>
 
-        <!--Radio Button Input-->
-        <span>Which soup do you prefer?</span>
-        <br>
-        <input type="radio" name="soup" id="borscht" value="Borscht" required>
-        <label for="borscht">Borscht</label>
-        <input type="radio" name="soup" id="cream" value="Cream of mushroom soup" required>
-        <label for="cream">Cream of mushroom soup</label>
-        <!--End of Radio Button Input-->
-        <hr>
+            <!--Radio Button Input-->
+            <span>Which soup do you prefer?</span>
+            <br>
+            <input type="radio" name="soup" id="borscht" value="Borscht" required>
+            <label for="borscht">Borscht</label>
+            <input type="radio" name="soup" id="cream" value="Cream of mushroom soup" required>
+            <label for="cream">Cream of mushroom soup</label>
+            <!--End of Radio Button Input-->
+            <br><br>
+            <hr>
 
-        <!--Textarea element-->
-        <label for="extra">Anything else you want to add?</label>
-        <br>
-        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
-        <!--End of Textarea element-->
-        <hr>
+            <!--Textarea element-->
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+            <!--End of Textarea element-->
+            <br>
 
-        <!--Submit Form-->
-        <input type="submit" value="Submit">
-    </form>
+            <!--Submit Form-->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 
 </html>
