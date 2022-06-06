@@ -24,6 +24,7 @@ body {
     font-size: 1.2em;
     background-color: lightyellow;
     border-radius: 10px;
+    width: 45%;
 }
 
 #goto-form {
@@ -184,10 +185,4 @@ h3 {
 form hr {
     width: 15%;
     border-top: 5px dotted;
-}
-
-/*margins on both sides as the body area in middle for width 780px*/
-.oneColFixCtr #container {
-    width: 780px; /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
-    margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
 }
