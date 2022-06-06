@@ -151,9 +151,14 @@ header {
 
 /* *****end of navbar style***** */
 
-.googlemap,
+/*.googlemap,
 #video {
     display: inline-block;
+}*/
+.iframe2 {
+    display: inline-flex;
+    column-gap: 20px;
+    align-items: flex-end;
 }
 
 h3 {
