@@ -34,12 +34,6 @@ body {
     padding: 0 5px;
 }
 
-#message,
-#cuisine {
-    display: block;
-    margin: 0 auto 10px auto;
-}
-
 lottie-player {
     margin: 0 auto;
 }
