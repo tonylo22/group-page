@@ -189,9 +189,11 @@ form hr {
 
 .googlemap{
     display: inline-block;
+    vertical-align: top;
 }
 
-#top {
-    align-items: start;
-    top:0px
+a {
+color: #13edea;
+color:hsl(179, 43%, 43%);
 }
+
