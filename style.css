@@ -165,11 +165,11 @@ header {
 #video {
     display: inline-block;
 }*/
-.iframe2 {
+/* .iframe2 {
     display: inline-flex;
     column-gap: 20px;
     align-items: flex-end;
-}
+} */
 
 h3 {
     text-decoration: underline;
@@ -184,14 +184,23 @@ h3 {
     margin-bottom: 0;
 }
 
-#googlemap {
+/* #googlemap {
     border: 100;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
-}
+} */
 
 form hr {
     width: 15%;
     border-top: 5px dotted;
+}
+
+.googlemap{
+    display: inline-block;
+}
+
+#top {
+    align-items: start;
+    top:0px
 }
