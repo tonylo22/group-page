@@ -178,10 +178,21 @@ h3 {
     text-align: left;
 }
 
-#video {
+/* #video {
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
+} */
+
+.grid{
+    display: grid;
+    width: 85%;
+    position: relative;
+    margin-top: 50px;
+    grid-template: repeat(3,1fr) / repeat(2,1fr);
+    border: 3px dotted lightyellow;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 /* #googlemap {
@@ -194,6 +205,13 @@ h3 {
 form hr {
     width: 15%;
     border-top: 5px dotted;
+}
+
+
+@media screen and (max-width: 893px){
+    .grid{
+        display: block;
+    }
 }
 
 .googlemap{
