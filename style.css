@@ -4,11 +4,18 @@
     scroll-padding: 50px;
 }
 
+@font-face{
+    font-family: 'doll';
+    src: url('doll.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'doll', sans-serif;
     background-color: lightpink;
     color: rgb(146, 52, 52);
     text-align: center;
+    line-height: 1.8;
+    font-weight: bold;
 }
 
 #textbox {
@@ -53,6 +60,7 @@ th {
 
 table ul, table ol {
     text-align: left;
+    line-height: 2.4; /*different hight with body*/
 }
 
 img {
@@ -156,11 +164,11 @@ header {
 #video {
     display: inline-block;
 }*/
-.iframe2 {
+/* .iframe2 {
     display: inline-flex;
     column-gap: 20px;
     align-items: flex-end;
-}
+} */
 
 h3 {
     text-decoration: underline;
@@ -186,20 +194,30 @@ h3 {
     padding: 20px;
 }
 
-#googlemap {
+/* #googlemap {
     border: 100;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
-}
+} */
 
 form hr {
     width: 15%;
     border-top: 5px dotted;
 }
 
+
 @media screen and (max-width: 893px){
     .grid{
         display: block;
     }
+}
+
+.googlemap{
+    display: inline-block;
+}
+
+#top {
+    align-items: start;
+    top:0px
 }
