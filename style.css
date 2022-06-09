@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: 'doll';
-    src: url('fonts/doll.ttf') format('truetype');
+    src: url('doll.ttf') format('truetype');
 }
 
 body {
