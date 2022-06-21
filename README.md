@@ -1,4 +1,3 @@
 # group-page
-Daniel helloo
-Chloe
-Samuel use command lineto push
+
+https://tonylo22.github.io/group-page/
